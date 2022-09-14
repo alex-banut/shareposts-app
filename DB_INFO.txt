@@ -1,0 +1,21 @@
+In this document you will find the steps to create the tables in order for SharePost to work.
+
+A new db must be created and the db credentials must be configured in the app/config/config.php
+
+The app requires 2 tables:
+- posts with the following columns:
+id - int, auto increment and primary key
+user_id - int,
+title - varchar,
+body - varchar,
+created_at - datetime
+
+- users with the following columns:
+id - int, auto increment and primary key
+name - varchar,
+email - varchar,
+password - varchar,
+created_at - datetime
+
+
+This app was made by following Brad Traversy, PHP MVC framework.
